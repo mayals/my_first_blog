@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Tajawal';
+
+  src: url('../fonts/Tajawal-Regular.ttf')  format("truetype"),
+       local('Tajawal');
+}
+
+html, body{
+  direction: rtl;
+  
+}
+
+
+body{
+  font-family: 'Tajawal', sans-serif ;
+  text-align: right;
+}
+
+
+
+.dropdown-menu .dropdown-item{
+    text-align: right ;
+
+}
+
+ 

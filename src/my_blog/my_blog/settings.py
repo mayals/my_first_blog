@@ -124,7 +124,7 @@ STATIC_URL = '/static/'
 
 
 # if you want to make static folder for all project you can use this code.
-STATICFILES_DIRS =[
-    os.path.join(BASE_DIR,"static"),
-    r'C:\Users\mayal\Desktop\vir_blogger\src\static', 
-]
+# STATICFILES_DIRS =[
+#     os.path.join(BASE_DIR,"static"),
+#     r'C:\Users\mayal\Desktop\vir_blogger\src\static', 
+# ]

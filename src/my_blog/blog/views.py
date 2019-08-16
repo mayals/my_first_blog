@@ -32,8 +32,16 @@ posts =[
 # Create your views here.
 def home(request):
     context = {
-    
         'page_title':'الصفحة الرئيسية',
         'posts': posts   
     }
     return render(request,"blog/index.html", context )
+
+
+
+def about(request):
+
+    context = {
+        'page_title': 'من أنا' ,
+    }
+    return render(request ,"blog/about.html",context)

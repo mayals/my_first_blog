@@ -24,3 +24,19 @@ body{
 }
 
  
+.bg-secondary{
+   background-color: #666 !important;
+
+}
+
+.bg-light{
+   background-color: #ccc !important;
+}
+/* start post content */
+.post{
+
+  border: 1px solid #ccc;
+
+/* end post content */
+
+}

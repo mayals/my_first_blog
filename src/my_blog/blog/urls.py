@@ -20,4 +20,5 @@ from . import views
 urlpatterns = [
     path('', views.home , name ='home_page'),
     path('about/', views.about , name = 'about_me'),
+    path('detail/<int:post_id>/', views.post_detail , name = 'thedetail'),
 ]
